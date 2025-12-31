@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dev Gazer</title>
-    <link>https://dev-gazer.github.io/</link>
+    <link>https://martuscellifaria.github.io/</link>
     <description>Recent content on Dev Gazer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dev-gazer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martuscellifaria.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Starting With Juce</title>
-      <link>https://dev-gazer.github.io/posts/starting-with-juce/</link>
+      <link>https://martuscellifaria.github.io/posts/starting-with-juce/</link>
       <pubDate>Sat, 18 Sep 2021 23:44:13 -0300</pubDate>
       
-      <guid>https://dev-gazer.github.io/posts/starting-with-juce/</guid>
+      <guid>https://martuscellifaria.github.io/posts/starting-with-juce/</guid>
       <description>So this is the real deal if you want to be cool.
 I abandoned the stupid idea of creating a browser from scratch that can barely run GitHub or even play some videos on YouTube and decided to focus on good stuff. That&amp;rsquo;s when I decided to learn more about audio processing with Juce.
 My friend Julia Kaffka sent me a link about some Python library from Spotify that was created for musicians or producers.</description>
@@ -22,11 +22,11 @@ My friend Julia Kaffka sent me a link about some Python library from Spotify tha
 &lt;p&gt;But let us be honest and straightforward: it is not the best language when you&amp;rsquo;re dealing with real time signal processing. That may demand more processing that is needed if you&amp;rsquo;re working with C++ or something like that.&lt;/p&gt;
 &lt;p&gt;For my surprise, a quick look at this Spotishit library repo on GitHub: it is a cool disguise for C++ Juce Framework with some ports for Python language. Let us then try Juce from its basics.&lt;/p&gt;
 &lt;p&gt;I looked online and have found a pretty fresh full course on freeCodeCamp (&lt;a href=&#34;https://www.youtube.com/watch?v=i_Iq4_Kd7Rc&#34;&gt;https://www.youtube.com/watch?v=i_Iq4_Kd7Rc&lt;/a&gt;) by Chuck from MatKat Music. His tutorial is mostly for Mac users, but if you are familiar with Linux and knows how to handle Makefiles to compile your code, you&amp;rsquo;ll be fine.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dev-gazer.github.io/juce-1.png&#34; alt=&#34;Learn Modern C++ by Building an Audio Plugin (w/ JUCE Framework) - Full Course&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://martuscellifaria.github.io/juce-1.png&#34; alt=&#34;Learn Modern C++ by Building an Audio Plugin (w/ JUCE Framework) - Full Course&#34;&gt;&lt;/p&gt;
 &lt;p&gt;In this course you&amp;rsquo;ll learn not Modern C++, but how to create audio processors with Juce, and it is pretty tough, I must say. Advanced stuff going on all the time.&lt;/p&gt;
 &lt;p&gt;We have built a cool Simple Equalizer plugin that can run on any DAW or maybe a dedicated device (would I try it on a Raspberry Pi some day?), and Chuck also gives a brief overlook on his personal courses. I am convinced of taking his lessons in a near future. Check at &lt;a href=&#34;https://www.programmingformusicians.com/pfmcpp/&#34;&gt;https://www.programmingformusicians.com/pfmcpp/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;There is a snapshot of me running SimpleEq on our beloved Reaper.
-&lt;img src=&#34;https://dev-gazer.github.io/juce-2.png&#34; alt=&#34;SimpleEq running on Reaper&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://martuscellifaria.github.io/juce-2.png&#34; alt=&#34;SimpleEq running on Reaper&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Cool stuff. I will start trying to build a delay effect on Monday. Let us see. Gazers have to gaze.&lt;/p&gt;
 &lt;p&gt;Bye then folks!&lt;/p&gt;
 &lt;p&gt;Alex&lt;/p&gt;
@@ -36,10 +36,10 @@ My friend Julia Kaffka sent me a link about some Python library from Spotify tha
     
     <item>
       <title>browserless v0.1.0</title>
-      <link>https://dev-gazer.github.io/posts/browserless/</link>
+      <link>https://martuscellifaria.github.io/posts/browserless/</link>
       <pubDate>Fri, 10 Sep 2021 19:50:21 -0300</pubDate>
       
-      <guid>https://dev-gazer.github.io/posts/browserless/</guid>
+      <guid>https://martuscellifaria.github.io/posts/browserless/</guid>
       <description>Just about to call it a day, I must say to you people I am trying to build a browser from scratch. And it seems to work pretty well right now, I must confess.
 If you&amp;rsquo;ve got the gaze as me, you&amp;rsquo;ll definitely name it some ethereal beauty like My Bloody Valentine Loveless, why not? And that&amp;rsquo;s the direction here. It is called browserless.
 My intentions here are not to start a revolution or reinvent the wheel.</description>
@@ -47,7 +47,7 @@ My intentions here are not to start a revolution or reinvent the wheel.</descrip
 &lt;p&gt;If you&amp;rsquo;ve got the gaze as me, you&amp;rsquo;ll definitely name it some ethereal beauty like My Bloody Valentine Loveless, why not? And that&amp;rsquo;s the direction here. It is called &lt;code&gt;browserless&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;My intentions here are not to start a revolution or reinvent the wheel. That is only my way to avoid newspapers paywalls and practice both my C++ and Qt skills while creating sorta lightweight browser for Linux users.&lt;/p&gt;
 &lt;p&gt;Yeah, I will later add new features to OpenQVision, but I haven&amp;rsquo;t decided about them yet, and I am pretty lazy as well. I&amp;rsquo;d rather play retro games and sleep instead.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dev-gazer.github.io/browserless.png&#34; alt=&#34;Usage example of browserless&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://martuscellifaria.github.io/browserless.png&#34; alt=&#34;Usage example of browserless&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Follow me on GitHub and/or Twitter @dev_gazer, and remember: sometimes antisocial, always antifascist.&lt;/p&gt;
 &lt;p&gt;Cheers!&lt;/p&gt;
 &lt;p&gt;Now playing My Bloody Valentine - Loveless &lt;strong&gt;ON REPEAT TILL EARS FALL OFF&lt;/strong&gt;&lt;/p&gt;
@@ -56,19 +56,19 @@ My intentions here are not to start a revolution or reinvent the wheel.</descrip
     
     <item>
       <title>OpenQVision v1.1.1</title>
-      <link>https://dev-gazer.github.io/posts/openqvision_v1.1.1/</link>
+      <link>https://martuscellifaria.github.io/posts/openqvision_v1.1.1/</link>
       <pubDate>Fri, 27 Aug 2021 10:20:21 -0300</pubDate>
       
-      <guid>https://dev-gazer.github.io/posts/openqvision_v1.1.1/</guid>
+      <guid>https://martuscellifaria.github.io/posts/openqvision_v1.1.1/</guid>
       <description>Saturday morning, quick update here.
 The Telegram support is still only for Yolo detection models, however you can set it explicitly in the UI, not anymore inside the code, with your own user ID and Bot Token.
 And noooooooowwww the best news ever!
-It is right now deployed for distribution as an AppImage. That means, if you go to OpenQVision official GitHub ( https://github.com/dev-gazer/OpenQVision ), you&amp;rsquo;ll find in the dist folder an image anyone can run (sure, if you are a Linux user).</description>
+It is right now deployed for distribution as an AppImage. That means, if you go to OpenQVision official GitHub ( https://github.com/martuscellifaria/OpenQVision ), you&amp;rsquo;ll find in the dist folder an image anyone can run (sure, if you are a Linux user).</description>
       <content>&lt;p&gt;Saturday morning, quick update here.&lt;/p&gt;
 &lt;p&gt;The Telegram support is still only for Yolo detection models, however you can set it explicitly in the UI, not anymore inside the code, with your own user ID and Bot Token.&lt;/p&gt;
 &lt;p&gt;And noooooooowwww the best news ever!&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;It is right now deployed for distribution as an AppImage&lt;/em&gt;. That means, if you go to OpenQVision official GitHub ( &lt;a href=&#34;https://github.com/dev-gazer/OpenQVision&#34;&gt;https://github.com/dev-gazer/OpenQVision&lt;/a&gt; ), you&amp;rsquo;ll find in the dist folder an image anyone can run (sure, if you are a Linux user).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dev-gazer.github.io/OpenQVision-MainWindow3.png&#34; alt=&#34;OpenQVision v1.1.1 Main Window&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;It is right now deployed for distribution as an AppImage&lt;/em&gt;. That means, if you go to OpenQVision official GitHub ( &lt;a href=&#34;https://github.com/martuscellifaria/OpenQVision&#34;&gt;https://github.com/martuscellifaria/OpenQVision&lt;/a&gt; ), you&amp;rsquo;ll find in the dist folder an image anyone can run (sure, if you are a Linux user).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://martuscellifaria.github.io/OpenQVision-MainWindow3.png&#34; alt=&#34;OpenQVision v1.1.1 Main Window&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Super excited with the new ideas to come to OpenQVision.&lt;/p&gt;
 &lt;p&gt;Once again, follow me on GitHub and/or Twitter @dev_gazer, make your forks and ask for merge!&lt;/p&gt;
 &lt;p&gt;Cheers!&lt;/p&gt;
@@ -78,17 +78,17 @@ It is right now deployed for distribution as an AppImage. That means, if you go 
     
     <item>
       <title>OpenQVision v1.1.0</title>
-      <link>https://dev-gazer.github.io/posts/openqvision_v1.1.0/</link>
+      <link>https://martuscellifaria.github.io/posts/openqvision_v1.1.0/</link>
       <pubDate>Thu, 26 Aug 2021 14:50:34 -0300</pubDate>
       
-      <guid>https://dev-gazer.github.io/posts/openqvision_v1.1.0/</guid>
+      <guid>https://martuscellifaria.github.io/posts/openqvision_v1.1.0/</guid>
       <description>Hi all! There was a quick update in OpenQVision.
 I was talking to my friend Audrey Siqueira (https://github.com/audrey-siqueira) the other day and he suggested me to check whether it was possible to include object detection in images or videos, so expand OpenQVision scope beyond real time camera streaming.
 That change was pretty quick. Just one day after lauching v1.0.0, v1.1.0 is available. It is already merged to the main branch of OpenQVision official repository ( https://github.</description>
       <content>&lt;p&gt;Hi all! There was a quick update in OpenQVision.&lt;/p&gt;
 &lt;p&gt;I was talking to my friend Audrey Siqueira (&lt;a href=&#34;https://github.com/audrey-siqueira&#34;&gt;https://github.com/audrey-siqueira&lt;/a&gt;) the other day and he suggested me to check whether it was possible to include object detection in images or videos, so expand OpenQVision scope beyond real time camera streaming.&lt;/p&gt;
-&lt;p&gt;That change was pretty quick. Just one day after lauching v1.0.0, v1.1.0 is available. It is already merged to the main branch of OpenQVision official repository ( &lt;a href=&#34;https://github.com/dev-gazer/OpenQVision&#34;&gt;https://github.com/dev-gazer/OpenQVision&lt;/a&gt; ). A first taste of OpenQVision v1.1.0 is displayed below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dev-gazer.github.io/OpenQVision-MainWindow2.png&#34; alt=&#34;OpenQVision v1.1.0 Main Window&#34;&gt;&lt;/p&gt;
+&lt;p&gt;That change was pretty quick. Just one day after lauching v1.0.0, v1.1.0 is available. It is already merged to the main branch of OpenQVision official repository ( &lt;a href=&#34;https://github.com/martuscellifaria/OpenQVision&#34;&gt;https://github.com/martuscellifaria/OpenQVision&lt;/a&gt; ). A first taste of OpenQVision v1.1.0 is displayed below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://martuscellifaria.github.io/OpenQVision-MainWindow2.png&#34; alt=&#34;OpenQVision v1.1.0 Main Window&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Follow me there, make your forks and ask for merge!&lt;/p&gt;
 &lt;p&gt;Cheers!&lt;/p&gt;
 &lt;p&gt;Now playing Glare - Blank&lt;/p&gt;
@@ -97,18 +97,18 @@ That change was pretty quick. Just one day after lauching v1.0.0, v1.1.0 is avai
     
     <item>
       <title>New blog on and OpenQVision</title>
-      <link>https://dev-gazer.github.io/posts/openqvision/</link>
+      <link>https://martuscellifaria.github.io/posts/openqvision/</link>
       <pubDate>Tue, 24 Aug 2021 17:35:46 -0300</pubDate>
       
-      <guid>https://dev-gazer.github.io/posts/openqvision/</guid>
+      <guid>https://martuscellifaria.github.io/posts/openqvision/</guid>
       <description>Hi there and welcome! This is Alex here. I am starting this personal/semi-professional blog on GitHub. Let us then launch this space with a banger! Today I would like to present you a project I have been working hard these past couple of months. OpenQVision is a Open Source project that allows Computer Vision to become more readable by non-programmer users, or even helps data scientists to check their neural network models on the fly.</description>
       <content>&lt;p&gt;Hi there and welcome! This is Alex here. I am starting this personal/semi-professional blog on GitHub. Let us then launch this space with a banger! Today I would like to present you a project I have been working hard these past couple of months. OpenQVision is a Open Source project that allows Computer Vision to become more readable by non-programmer users, or even helps data scientists to check their neural network models on the fly.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dev-gazer.github.io/OpenQVision-MainWindow.png&#34; alt=&#34;OpenQVision Main Window&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://martuscellifaria.github.io/OpenQVision-MainWindow.png&#34; alt=&#34;OpenQVision Main Window&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Currently, OpenQVision works with camera streaming, and you&amp;rsquo;ll need to set as input the path for your model files, i.e. weights, configuration and class names.&lt;/p&gt;
 &lt;p&gt;It is also possible to integrate it with external actions. The version uploaded triggers a Telegram Bot that send a capture after the detection runs for some user-defined amount of frames. Let us say, if a guitar is seen on the screen for more than 10 consecutive frames.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dev-gazer.github.io/telegram-bot-example.png&#34; alt=&#34;Telegram Bot Example&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://martuscellifaria.github.io/telegram-bot-example.png&#34; alt=&#34;Telegram Bot Example&#34;&gt;&lt;/p&gt;
 &lt;p&gt;All right, before I forget, OpenQVision is written in C++. It is actually a port from its previous version, which was in Python language. For the sake of performance, I have managed to learn OpenCV in C++ and review my previous knowledge on Qt applications.&lt;/p&gt;
-&lt;p&gt;More details, access OpenQVision official repository &lt;a href=&#34;https://github.com/dev-gazer/OpenQVision,&#34;&gt;https://github.com/dev-gazer/OpenQVision,&lt;/a&gt; message me on Twitter at @dev_gazer, find me on LinkedIn at &lt;a href=&#34;https://www.linkedin.com/in/alexandremfaria/&#34;&gt;https://www.linkedin.com/in/alexandremfaria/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;More details, access OpenQVision official repository &lt;a href=&#34;https://github.com/martuscellifaria/OpenQVision,&#34;&gt;https://github.com/martuscellifaria/OpenQVision,&lt;/a&gt; message me on Twitter at @dev_gazer, find me on LinkedIn at &lt;a href=&#34;https://www.linkedin.com/in/alexandremfaria/&#34;&gt;https://www.linkedin.com/in/alexandremfaria/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Cheers!&lt;/p&gt;
 &lt;p&gt;Now playing Slow Crush - Hush&lt;/p&gt;
 </content>
@@ -116,10 +116,10 @@ That change was pretty quick. Just one day after lauching v1.0.0, v1.1.0 is avai
     
     <item>
       <title>About</title>
-      <link>https://dev-gazer.github.io/about/</link>
+      <link>https://martuscellifaria.github.io/about/</link>
       <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dev-gazer.github.io/about/</guid>
+      <guid>https://martuscellifaria.github.io/about/</guid>
       <description>Hi all This is Alex here, you can find me in twitter as @dev_gazer. I will start posting to this blog hosted in GitHub as a guide to my repositories and online projects.
 You can expect from me regular uploads and maintenance.
 I usually code in Python but you can expect some content in other languages such as php, C++, and in various subjects such as Computer Vision, DevOps, Database Integration, Cloud Computing, automation and so on!</description>

@@ -1,0 +1,16 @@
+---
+const { file = "index.md", mode = "NORMAL" } = Astro.props;
+---
+<div class="statusline">
+  <span class="mode">{mode}</span>
+  <span class="sep">│</span>
+  <span class="file">~/blog/{file}</span>
+  <span class="sep">│</span>
+  <span class="branch"> main</span>
+  <span class="sep">│</span>
+  <span>utf-8</span>
+  <div class="right">
+    <span>ln 1, col 1</span>
+    <span>100%</span>
+  </div>
+</div>

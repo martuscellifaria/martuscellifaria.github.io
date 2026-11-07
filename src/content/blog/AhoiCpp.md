@@ -27,8 +27,8 @@ A bunch of things to say about this, but these are the highlights for now. If yo
 
 ```lua
 {
-    'martuscellifaria/ahoicpp.nvim',
-        config = function()
+	'martuscellifaria/ahoicpp.nvim',
+	config = function()
 	      require('ahoicpp').setup()
 	end,
 }

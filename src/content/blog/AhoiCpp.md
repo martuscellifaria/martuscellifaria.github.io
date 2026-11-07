@@ -23,7 +23,16 @@ My two most used keybindings are also `<leader>cpc` for compiling and `<leader>c
 
 I recently incorporated a Dockerfile to the project scaffolding with a `devcontainer`. This allows the user (if on Linux), to do cross compilation targeting Windows and Linux on x86_64 and aarch64.
 
-A bunch of things to say about this, but these are the highlights for now.
+A bunch of things to say about this, but these are the highlights for now. If you want to learn more about AhoiCpp, I recommend going to the repo and reading the README.md. Or even better, add the following to your neovim init.lua file:
+
+```lua
+{
+    'martuscellifaria/ahoicpp.nvim',
+        config = function()
+	      require('ahoicpp').setup()
+	end,
+}
+```
 
 Thanks for reading,
 

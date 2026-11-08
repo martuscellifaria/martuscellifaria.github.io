@@ -24,7 +24,12 @@ const posts = (await getCollection("blog")).sort(
         {posts.map((p) => (
           <li>
             <span class="date">{p.data.pubDate.toISOString().slice(0, 10)}</span>
-            <a href={`/blog/${p.id}/`}>{p.data.title}</a>
+            <div>
+              <a href={`/blog/${p.id}/`}>{p.data.title}</a>
+              {p.data.description && (
+                <span class="post-item-desc">— {p.data.description}</span>
+              )}
+            </div>
           </li>
         ))}
       </ul>

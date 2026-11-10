@@ -1,6 +1,6 @@
 ---
 title: "AhoiPlank"
-description: "Reinventing the Plank!""
+description: "Reinventing the Plank!"
 pubDate: 2026-11-10
 ---
 
